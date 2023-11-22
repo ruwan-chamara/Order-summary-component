@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+	background-image: url(./images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+	font-family: 'Red Hat Display', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: hsl(225, 100%, 94%);
+	height: 100vh;
+	min-width: 375px;;
+}
+*{
+	margin: 0;
+}
+.card{
+	width: 375px;
+	height: 640px;
+	border: none;
+	border-radius: 15px;
+	background-color:white ;
+}
+p{
+	font-size: 16px;	
+}
+.hero-img{
+	width: 375px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.planBox{
+	display: flex;
+	width: 300px;
+	height:100px;
+	border: none;
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px auto;
+	border-radius: 10px;
+	background-color:    hsl(225, 100%, 98%);
+}
+.description{
+	width: 300px;
+	text-align: center;
+	margin: 5px auto;
+	color:  hsl(224, 23%, 55%);
+	padding-bottom: 20px;
+	
+}
+h1{
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.plane{
+	color: hsl(224, 23%, 55%);
+}
+button{
+	display: block;
+	margin: 25px auto;
+	width: 300px;
+	height:50px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	border: none;
+}
+.payment{
+	background-color:hsl(245, 75%, 52%);
+	color: white;
+	box-shadow:0 20px 5px rgba(195, 183, 234, 0.3);
+
+}
+.cancel{
+	background-color: white;
+	color:  hsl(224, 23%, 55%);;
+}
+.change{
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+	color: rgb(111, 44, 219);
+}
+.payment:hover{
+	background-color: rgb(111, 44, 219) ;
+	box-shadow:0 20px 5px rgba(112, 89, 186, 0.3);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
